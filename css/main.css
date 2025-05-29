@@ -60,21 +60,6 @@ body {
     width: 50%;
 }
 
-#arr
-
-.botao-accordion{
-    width: 100%;
-    height: auto;
-    border-color: #FF9A6C;
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 30px;
-}
-
-.arrow-down{
-    margin-left: 100px;
-}
-
 h1,
 h2 {
     font-weight: 600;
@@ -84,10 +69,6 @@ h2 {
 
 .paragrafo {
     margin-bottom: 64px;
-}
-
-.paragrafo-footer {
-    margin-top: 10px;
 }
 
 .paragrafo-clinica,
@@ -102,8 +83,6 @@ h2 {
 .paragrafo-clinica li {
     margin: 0px 0px 12px 30px;
 }
-
-
 
 .botao {
     background-color: #FF9A6C;
@@ -145,7 +124,8 @@ h2 {
     border-radius: 8px;
     cursor: pointer;
     padding: 24px;
-    margin-bottom: -50px; /* distancia */
+    margin-bottom: -50px;
+    /* distancia */
 }
 
 .duvida img {
@@ -173,4 +153,90 @@ h2 {
     height: fit-content;
     overflow: 24px;
     padding: 60px 24px 10px 24px;
+}
+
+footer {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#links-rapidos {
+    height: 80%;
+    display: flex;
+    gap: 32;
+    padding: 80px 80px 24px 80px;
+}
+
+#links-rapidos {
+    background-color: #fde3d9;
+    justify-content: space-between;
+}
+
+#links-rapidos a {
+    margin-bottom: 15px;
+}
+
+#links-rapidos ul {
+    list-style-type: none;
+}
+
+#links-rapidos ul li a{
+    text-decoration: none;
+    color: #263138;
+}
+
+#links-rapidos .mais-info:last-of-type a:last-of-type {
+    color: #FF725E;
+}
+
+.mais-info img {
+    margin-bottom: 20px;
+}
+
+.mais-info a {
+    margin-bottom: 60px;
+}
+
+.mais-info ul li  {
+    margin-bottom: 15px;
+}
+
+#diretos-reservados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32;
+    padding: 80px 80px 24px 80px;
+    background-color: #263138;
+}
+
+#diretos-reservados p {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#diretos-reservados p a {
+    color: #FF725E;
+    text-decoration: none;
+    gap: 50px;
+    margin-right: 10px;
+
+}
+
+#direitos-reservados a {
+}
+
+.paragrafo-links-rapidos {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#img-links-rapidos {
+    margin-bottom: 20px;
+}
+
+.simbolo-quadrado {
+    list-style: circle;
+    color: white;
 }
