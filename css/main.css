@@ -40,7 +40,7 @@ body {
 #farmacia {
     display: flex;
     align-items: center;
-    gap: 32;
+    gap: 32px;
     padding: 80px 80px 24px 80px;
     position: relative;
 }
@@ -156,21 +156,20 @@ h2 {
 }
 
 footer {
-    height: 45vh;
     display: flex;
     flex-direction: column;
 }
 
 #links-rapidos {
-    height: 80%;
+    height: 300px;
     display: flex;
-    gap: 32;
-    padding: 80px 80px 24px 80px;
+    gap: 32px;
+    padding: 80px 24px;
 }
 
 #links-rapidos {
     background-color: #fde3d9;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #links-rapidos a {
@@ -203,11 +202,12 @@ footer {
 }
 
 #diretos-reservados {
+    height: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 32;
-    padding: 80px 80px 24px 80px;
+    gap: 32px;
+    padding: 30px 24px;
     background-color: #263138;
 }
 
@@ -234,9 +234,4 @@ footer {
 
 #img-links-rapidos {
     margin-bottom: 20px;
-}
-
-.simbolo-quadrado {
-    list-style: circle;
-    color: white;
 }
