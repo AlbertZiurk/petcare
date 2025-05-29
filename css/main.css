@@ -5,13 +5,13 @@
 }
 
 /* Configuração da Página */
-body{
+body {
     color: #263138;
 }
 
 /* Cabeçalho - Menu */
 
-.menu{
+.menu {
     background-color: #ff9a6c;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@ body{
     z-index: 100;
 }
 
-    
+
 .menu nav a {
     color: aliceblue;
     font-weight: 600;
@@ -35,7 +35,9 @@ body{
 }
 
 /* Config - Seção INÍCIO */
-#inicio, #clinica, #farmacia {
+#inicio,
+#clinica,
+#farmacia {
     display: flex;
     align-items: center;
     gap: 32;
@@ -44,7 +46,7 @@ body{
 }
 
 
-#farmacia > div {
+#farmacia>div {
     width: 100%;
     height: auto;
 
@@ -54,11 +56,27 @@ body{
     flex-direction: column;
 }
 
-#farmacia > div > p{
+#farmacia>div>p {
     width: 50%;
 }
 
-h1, h2 {
+#arr
+
+.botao-accordion{
+    width: 100%;
+    height: auto;
+    border-color: #FF9A6C;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.arrow-down{
+    margin-left: 100px;
+}
+
+h1,
+h2 {
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px;
@@ -68,7 +86,12 @@ h1, h2 {
     margin-bottom: 64px;
 }
 
-.paragrafo-clinica, .paragrafo {
+.paragrafo-footer {
+    margin-top: 10px;
+}
+
+.paragrafo-clinica,
+.paragrafo {
     line-height: 150%;
 }
 
@@ -97,10 +120,57 @@ h1, h2 {
     text-underline-offset: 4px;
 }
 
-.absolute{
+.absolute {
     position: absolute;
     bottom: -10px;
     left: 0;
     width: 100%;
     z-index: -10;
+}
+
+/* Seções - Dúvidas ( Conteúdos ) */
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 80px;
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #FF725E;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+    margin-bottom: -50px; /* distancia */
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #FF725E;
+    border-bottom: 1px solid #FF725E;
+    border-left: 1px solid #FF725E;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    /* Eventos JS... */
+    padding: 10px 24px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transform: .2s;
+}
+
+.duvida.ativa .paragrafo {
+    opacity: 1;
+    height: fit-content;
+    overflow: 24px;
+    padding: 60px 24px 10px 24px;
 }
