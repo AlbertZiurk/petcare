@@ -35,12 +35,27 @@ body{
 }
 
 /* Config - Seção INÍCIO */
-#inicio, #clinica {
+#inicio, #clinica, #farmacia {
     display: flex;
     align-items: center;
     gap: 32;
     padding: 80px 80px 24px 80px;
     position: relative;
+}
+
+
+#farmacia > div {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#farmacia > div > p{
+    width: 50%;
 }
 
 h1, h2 {
