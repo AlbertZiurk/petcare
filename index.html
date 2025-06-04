@@ -1,223 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetLife</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="preconnect" href="https://fonts;googleapis.com">
-    <link rel="preconnect" href="https://fonts;gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <title>Centro Veterinário Seres | Petz</title>
+    <link rel="stylesheet" href="./Biblioteca/CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header class="menu">
-        <a href="index.html">
-            <img src="./img/logo-white.svg" alt="Logo PetLife" class="">
-        </a>
+    <header>
         <nav>
-            <a href="#inicio">Início</a>
-            <a href="#clinica">Clínica</a>
-            <a href="#farmacia">Farmácia</a>
-            <a href="#duvidas">Dúvida</a>
+            <div class="logo">
+                <img src="./Biblioteca/Imagens/logo_petcare.png" alt="Logo PetCare" class="logo-img">
+            </div>
+            <div class="nav-options">
+                <a href="#agendamento">Agendamento</a>
+                <a href="#emergencia">Emergência</a>
+                <a href="#vacinas">Vacinas</a>
+                <a href="#servicos">Serviços</a>
+            </div>
+            <div class="nav-icons">
+                <a href="#" class="icon" title="Favoritos">
+                    <img src="./Biblioteca/Icons/favorito.png" alt="Favoritos">
+                </a>
+                <a href="#" class="icon" title="Carrinho">
+                    <img src="./Biblioteca/Icons/vista-lateral-vazia-do-carrinho-de-compras.png" alt="Carrinho">
+                </a>
+            </div>
         </nav>
-
     </header>
 
-
     <main>
-
-        <!-- Seção Início -->
-        <section id="inicio">
-            <img src="./img/start-img.svg" alt="Ilustração de uma mulher com um cachorro" width="580" height="580">
-
-
-            <div>
-
-                <h1>Cuidados para dar uma vida longa para o seu pet</h1>
-
-                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, corrupti? Dignissimos
-                    debitis maxime
-                    quos recusandae nisi! Et reiciendis iusto sapiente accusantium dolor atque voluptas enim, sequi in,
-                    aliquid iste veniam.
-                    Facere fugiat sint corrupti nulla impedit ad, vel architecto molestiae ea expedita ex labore, qui
-                    aliquid unde eius. Quaerat ipsam aliquam itaque doloribus animi explicabo fugiat maiores voluptatem
-                    perspiciatis harum?
-                    Excepturi sapiente, asperiores, laudantium ad illum totam ab repudiandae sequi laboriosam dolores,
-                    placeat consectetur necessitatibus aliquam ex sed consequuntur atque hic eveniet fugit qui. Dolore
-                    aliquid laudantium et eaque optio.</p>
-
-                <a href="https://wa.me/551146194328?text=Olá, preciso de ajuda!" class="botao" target="_blank">Marque
-                    sua consulta</a>
-                <a href="#clinica" class="botao-transparente">Conheça nossa clínica</a>
-            </div>
-
-            <img class="absolute" src="./img/shape.svg" alt="Banner decorativo">
-
-        </section>
-
-        <!-- Fim seção Início -->
-
-        <!-- Seção Clínica -->
-        <section id="clinica">
-
-            <div>
-
-                <h1>Cuidados para dar uma vida longa para o seu pet</h1>
-
-                <p class="paragrafo-clinica">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis auctor lorem. Integer
-                    porttitor pretium tortor. Aenean ullamcorper rutrum tortor, a volutpat sapien laoreet id. Nunc
-                    tincidunt eros tempor tristique pretium. Donec venenatis elit a quam faucibus, sit amet porta risus
-                    finibus. Duis neque nisi, venenatis vitae sodales nec, imperdiet et ligula. Nunc fermentum bibendum
-                    tincidunt. Phasellus odio velit, pellentesque sodales dapibus sed, accumsan non neque. Fusce
-                    interdum mi et purus ullamcorper hendrerit. Nulla felis leo, scelerisque nec luctus id, lacinia
-                    pellentesque elit.
-                </p>
-                <ul class="paragrafo-clinica">
-                    <li>Consultas e exames de rotina</li>
-                    <li>Vacinação e imunização</li>
-                    <li>Cirurgias e procedimentos veterinários</li>
-                    <li>tratamentos e controles de doenças</li>
-                    <li>Odontologia veterinária</li>
-                    <li>Atendimento de emergência 24 horas</li>
-                    <li>Nutrição e aconselhamento alimentar personalizado</li>
-                </ul>
-
-
-                <a href="https://wa.me/551146194328?text=Olá, preciso de ajuda!" class="botao" target="_blank">Agendar
-                    Consulta</a>
-                <a href="#clinica" class="botao-transparente">Como Chegar?</a>
-            </div>
-
-            <img src="./img/clinic-img.svg" alt="Ilustração de uma mulher com um cachorro" width="580" height="580">
-
-        </section>
-        <!-- Seção Farmácia -->
-        <section id="farmacia">
-
-            <div>
-
-                <h1>Venha conferir nosso petshop e farmácia</h1>
-
-                <img src="./img/shop-img.svg" alt="Ilustração de uma mulher com um cachorro" width="580" height="580">
-
-                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, corrupti? Dignissimos
-                    debitis maxime
-                    quos recusandae nisi! Et reiciendis iusto sapiente accusantium dolor atque voluptas enim, sequi in,
-                    aliquid iste veniam.
-                    Facere fugiat sint corrupti nulla impedit ad, vel architecto molestiae ea expedita ex labore, qui
-                    aliquid unde eius. Quaerat ipsam aliquam itaque doloribus animi explicabo fugiat maiores voluptatem
-                    perspiciatis harum?
-                    Excepturi sapiente, asperiores, laudantium ad illum totam ab repudiandae sequi laboriosam dolores,
-                    placeat consectetur.</p>
-
-            </div>
-
-        </section>
-        <!-- Fim seção Farmácia -->
-
-        <!-- Seção Dúvida -->
-        <section id="duvidas">
-            <img src="./img/faq-img.svg" alt="Ilustração Homem e mulher conversando" width="580" height="580"
-                loading="lazy">
-
-            <div>
-                <h2>Ficou com alguma dúvida?</h2>
-
-                <div class="duvida">
-                    <h3>Quais serviços são oferecidos pela clínica PetLife?</h3>
-                    <img src="./img/arrow-down.svg" alt="Seta para abrir os comentarios">
-                    <p class="paragrafo">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad eos labore voluptatem
-                        impedit aliquid, reprehenderit placeat minima magni assumenda quisquam porro ipsa quod dolor
-                        explicabo quae vero dignissimos veritatis!
-                    </p>
+        <section id="agendamento" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>CENTRO VETERINÁRIO</h1>
+                    <h3>Tudo para manter a saúde do seu pet em dia</h3>
+                    <p>Vacinas, consultas e exames com qualidade e carinho.</p>
+                    <a href="#" class="cta-button">Agendar agora</a>
                 </div>
-
-                <div class="duvida">
-                    <h3>Quais espécies de animais a clínica atende?</h3>
-                    <img src="./img/arrow-down.svg" alt="Seta para abrir os comentarios">
-                    <p class="paragrafo">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad eos labore voluptatem
-                        impedit aliquid, reprehenderit placeat minima magni assumenda quisquam porro ipsa quod dolor
-                        explicabo quae vero dignissimos veritatis!
-                    </p>
-                </div>
-
-                <div class="duvida">
-                    <h3>A clínica possui serviço de emergência?</h3>
-                    <img src="./img/arrow-down.svg" alt="Seta para abrir os comentarios">
-                    <p class="paragrafo">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ipsa sit esse nulla
-                        mollitia, similique, est adipisci animi accusantium id optio neque autem nemo sapiente porro
-                        deleniti tempore nihil aliquid?
-                    </p>
-                </div>
-
-                <div class="duvida">
-                    <h3>A clínica oferece serviços de banho e tosa?</h3>
-                    <img src="./img/arrow-down.svg" alt="Seta para abrir os comentarios">
-                    <p class="paragrafo">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis molestiae eaque sint
-                        maiores, vitae, delectus vero qui adipisci obcaecati hic dolores nobis sequi exercitationem
-                        asperiores quibusdam doloremque quidem voluptatibus nulla.
-                    </p>
+                <div class="hero-image">
+                    <img src="./Biblioteca/Imagens/vaccines.jpg" alt="Veterinária com cachorro">
                 </div>
             </div>
-
         </section>
-        <!-- Fim seção Dúvida -->
-
-        <!-- Footer -->
-
-        <footer>
-            <section id="links-rapidos">
-                <div class="mais-info">
-                    <a href="index.html">
-                        <img src="./img/logo.svg" alt="Logo PetLife">
-                    </a>
-                    <p>Aqui é a vida do seu pet é mais feliz!</p>
-                </div>
-                <div class="mais-info">
-                    <ul>
-                        <li>
-                            <p class="paragrafo-links-rapidos">Links rápidos</p>
-                        </li>
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#clinica">Clínica</a></li>
-                        <li><a href="#farmacia">Farmácia</a></li>
-                        <li><a href="#duvidas">Dúvida</a></li>
-                    </ul>
-
-                </div>
-                <div class="mais-info">
-                    <ul>
-                        <li>
-                            <p class="paragrafo-links-rapidos">Encontre-nos</p>
-                        </li>
-                        <li>WhatsApp: <a href="https://bit.ly/45txKy8">(22) 4444-5555</a></li>
-                        <li>Email: <a href="https://mail.google.com/mail/?view=cm&to=petlife@petlife.com">petlife@petlife.com</a></li>
-                        <li>Endereço: Rua dos Pets, 1 - Centro - Petlândia</li>
-                    </ul>
-
-                </div>
-            </section>
-
-            <section id="diretos-reservados">
-                <p>Desenvolvimento por &copy;Alberto Ziurkelis de Araujo 2025 •
-                    <a href="https://github.com/AlbertZiurk" target="_blank" class="">Github</a>
-                    <a href="https://www.linkedin.com/in/alberto-ziurkelis-de-araujo/" target="_blank">Linkedin</a>
-                </p>
-            </section>
-        </footer>
-
-
-        <!-- Fim Footer -->
-
     </main>
-    <script src="./js/main.js"></script>
-</body>
 
+</body>
 </html>
