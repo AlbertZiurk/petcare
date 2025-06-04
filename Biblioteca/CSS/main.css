@@ -175,3 +175,81 @@ nav {
     background-color: #173580;
 }
 
+.emergency {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.emergency-content {
+    background: var(--bg-light);
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emergency-text h3 {
+    color: var(--red);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.emergency-text p {
+    color: #666;
+    font-size: 0.875rem;
+}
+
+.emergency-button {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+
+.appointment-banner {
+    background: var(--bg-light);
+    padding: 1rem 0;
+    position: sticky;
+    bottom: 0;
+    z-index: 900;
+}
+
+.appointment-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.appointment-content p {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.appointment-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.emergency-link {
+    color: var(--red);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.schedule-button {
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
